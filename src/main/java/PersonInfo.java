@@ -6,7 +6,7 @@ public class PersonInfo {
         Person person = new Person("Manqasana", 23, "female",
                 new String[] {"reading", "dancing", "listening to music."});
 
-        person.hello();//calling the method
+       System.out.println(person.hello()) ;//calling the method
 
     }
 }

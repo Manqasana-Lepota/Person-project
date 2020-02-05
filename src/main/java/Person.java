@@ -15,13 +15,10 @@ public class Person {
     }
 
 
-
-
-    //hello() method doesn't return any value
-    public void hello()
+    public String hello()
     {
-        //printing my personal info
-        System.out.println("Hello, my name is " + name + " and I am " + age + " years old "
-        + gender + " . My interest are " + interest[0] + " , " + interest[1] + " and " + interest[2]);
+        //returning my personal info
+        return "Hello, my name is " + name + " and I am " + age + " years old "
+                + gender + " . My interest are " + interest[0] + " , " + interest[1] + " and " + interest[2];
     }
 }
