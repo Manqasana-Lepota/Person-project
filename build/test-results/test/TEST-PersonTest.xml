@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PersonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-10T10:09:04" hostname="umuzi-admin" time="0.004">
+<testsuite name="PersonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-27T08:14:59" hostname="umuzi-admin" time="0.001">
   <properties/>
-  <testcase name="testHello" classname="PersonTest" time="0.004"/>
+  <testcase name="testHello" classname="PersonTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

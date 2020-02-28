@@ -4,9 +4,9 @@ public class PersonMain {
 
         //creating the object of the class Person
         Person person = new Person("Manqasana", 23, "female",
-                new String[] {"reading", "dancing", "listening to music."});
+                new String[] {"reading", "dancing", "listening to music"});
 
-       System.out.println(person.hello()) ;//calling the method
+        System.out.println(person.hello());//calling the method
 
     }
 }

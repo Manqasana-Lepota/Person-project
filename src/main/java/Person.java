@@ -15,10 +15,34 @@ public class Person {
     }
 
 
-    public String hello()
-    {
+    public String hello() {
         //returning my personal info
-        return "Hello, my name is " + name + " and I am " + age + " years old "
-                + gender + " . My interest are " + interest[0] + " , " + interest[1] + " and " + interest[2];
+        String message = "";
+        String punctuation = "";
+
+
+        for (int i = 0; i < interest.length; i++) {
+            if(i >0 && i < interest.length-1) {
+                punctuation +=", ";
+            }
+            if(i == interest.length-1) {
+                punctuation +=" and ";
+            }
+            punctuation += interest[i];
+
+
+
+        }
+        message="Hello, my name is " + name + " and I am " + age + " years old "
+                + gender + " . My interest are " ;
+
+        return message + punctuation + ".";
     }
-}
+
+
+    }
+
+
+
+
+
